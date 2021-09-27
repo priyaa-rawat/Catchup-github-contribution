@@ -91,5 +91,5 @@
         display:grid;
         grid-template-areas:
         'table table table'
-        'bookmark main main'
+        'bookmark bookmark main'
     }
