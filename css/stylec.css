@@ -15,7 +15,8 @@ border-radius: 200px;
 nav li{
     display:inline;
     float: left;
-    font-size:20px;
+    font-size:90%;
+    width: 32%;
 }
 nav li a{
     display: block;
@@ -33,7 +34,7 @@ nav ul{
     width: 100%;
     background-color:limegreen;
     height: 28px;
-    overflow: auto;
+    overflow:auto;
 }
 li a.active{
     background-color: limegreen;
@@ -43,7 +44,7 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
-h1{font-size:80px;
+h1{font-size:5vw;
     background-image:repeating-radial-gradient(orangered,orange);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans=serif;
     font-style: italic;

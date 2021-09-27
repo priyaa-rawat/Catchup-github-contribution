@@ -9,7 +9,8 @@ body{
 nav li{
     display:inline;
     float: left;
-    font-size:20px;
+    font-size:100%;
+    width:30%;
 }
 nav li a{
     display: block;
@@ -39,7 +40,7 @@ li a:hover:not(.active) {
     color: white;
 }
 h1{
-    font-size:80px;
+    font-size: 5vw;
     background-image:repeating-radial-gradient(orangered,orange);
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans=serif;
     font-style: italic;
