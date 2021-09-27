@@ -7,24 +7,30 @@
     <title>Github</title>
     <link rel="stylesheet" type="text/css" href="css\styled.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+    </script>
 </head>
 
 <body>
     <article>
     <center><h1>Opensource and Contribution <img src="Image\Octocat.png" style="width:100px;height:100px;" />:</h1></center>
-    <nav>
-        <ul>
-            <li>
-                <a href="index.html"><i class="fa fa-home"></i> Home</a>
-            </li>
-            <li>
-                <a href="tricks.html"><i class="fa fa-magic"></i>Tricks</a>
-            </li>
-            <li>
-                <a  class="active" href="opensource.html"><i class="fa fa-folder-open"></i>Opensource</a>
-            </li>
-        </ul>
-    </nav>
+    <div class="topnav" id="myTopnav">
+        <a href="index.html" class="active"><i class="fa fa-home"></i> Home</a>
+        <a href="tricks.html"><i class="fa fa-magic"></i> Tricks</a>
+        <a href="opensource.html"><i class="fa fa-folder"></i> Opensource</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <br><br><br>
     <section id="gridt">
         <div class="container">
