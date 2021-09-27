@@ -1,0 +1,70 @@
+body{
+    background-color:cornflowerblue;
+  
+}
+.box{
+width: 80vw;
+border: 15px  white solid;
+padding: 50px;
+margin: auto;
+box-shadow: 0 1px 6px rgba(0, 0, 0, 0.70);
+box-sizing: content-box;
+background-position-x:center;
+border-radius: 200px;
+}
+nav li{
+    display:inline;
+    float: left;
+    font-size:20px;
+}
+nav li a{
+    display: block;
+    color: #000;
+    padding: 3px 16px;
+    height: 22px;
+    background-color: #dddddd;
+    text-decoration: none;
+}
+nav ul{
+    border-radius:25px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color:limegreen;
+    height: 28px;
+    overflow: auto;
+}
+li a.active{
+    background-color: limegreen;
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+h1{font-size:80px;
+    background-image:repeating-radial-gradient(orangered,orange);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans=serif;
+    font-style: italic;
+    margin-top: 0;
+    border-radius:25px;
+}
+h2{
+    font-size:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:lightyellow;
+}
+p{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: lightgoldenrodyellow;
+    font-weight: bolder;
+ 
+}
+li{
+    font-size:15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:lightgoldenrodyellow;
+    font-weight:bold;
+}
