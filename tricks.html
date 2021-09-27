@@ -7,25 +7,31 @@
     <title>Github TT</title>
     <link rel="stylesheet" type="text/css" href="css\stylec.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script>
+        function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+    }
+    </script>
 </head>
 
 <body>
 <div class=box>
 <article>
 <header><center><h1>Github Tricks:</h1></center></header>
-<nav>
-    <ul>
-        <li>
-            <a href="index.html"><i class="fa fa-home"></i> Home</a>
-        </li>
-        <li>
-            <a class="active"  href="tricks.html"><i class="fa fa-magic"></i>Tricks</a>
-        </li>
-        <li>
-            <a href="opensource.html"><i class="fa fa-folder"></i>Opensource</a>
-        </li>
-    </ul>
-</nav>
+<div class="topnav" id="myTopnav">
+    <a href="index.html" ><i class="fa fa-home"></i> Home</a>
+    <a href="tricks.html" class="active"><i class="fa fa-magic"></i> Tricks</a>
+    <a href="opensource.html"><i class="fa fa-folder"></i> Opensource</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
 <section>
     <h2>Here are some tips and tricks to ease in your way to github tasks <i class="fa fa-wrench" style="font-size:20px;color:rgb(49, 47, 47)"></i><i class="fa fa-github" style="font-size:36px;color:orangered"></i> <i class="fa fa-cogs fa-spin" style="font-size:36px;color:rgb(54, 50, 50)"></i></h2>
     <br><br>
