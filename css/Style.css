@@ -26,11 +26,12 @@
       display:grid;
       grid-template-areas: item1 item2 item3 item4;
       grid-auto-flow: column;
+      width:100%;
       }
       .table p{
         color:navy;
         font-weight:bold;
-        width: 50vw;
+        font-size:1vw;
     }
     .topnav {
         background-color: #f2f2f2 ;
