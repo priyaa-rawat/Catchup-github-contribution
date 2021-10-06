@@ -27,11 +27,13 @@
       grid-template-areas: item1 item2 item3 item4;
       grid-auto-flow: column;
       width:100%;
+      margin-left: 1vw ;
+      margin-right: 1vw;
       }
       .table p{
         color:navy;
         font-weight:bold;
-        font-size:1vw;
+        font-size:3vw;
     }
     .topnav {
         background-color: #f2f2f2 ;
@@ -89,7 +91,7 @@
       }
 
     h1{
-        font-size:5vw;
+        font-size:7vw;
         background-image:repeating-radial-gradient(orangered,orange);
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans=serif;
         font-style: italic;
