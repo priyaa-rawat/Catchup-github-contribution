@@ -1,7 +1,4 @@
 body{
-    margin:0;
-    padding:0;
-    width:98vw;
     height: 100%;
     background-color: lightsteelblue;
 }
@@ -46,7 +43,9 @@ body{
     display: block;
   }
 }
-
+*{
+  box-sizing:border-box;
+}
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
@@ -71,7 +70,24 @@ h1{
 
 .flex-container {
   display: flex;
-  justify-content: center;
   flex-direction: column;
+  margin: 20px;
 }
 
+.cover{
+  flex-grow:2;
+  border-radius: 15px;
+  background-image: url("../Image/index.png");
+}
+.intro{
+  border: 15px  white solid;
+  padding: 50px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.50);
+  background-color: white;
+  border-radius: 15px;
+  width:100%;
+  flex-grow:1;
+}
+.content{
+  flex-grow:1;
+}
