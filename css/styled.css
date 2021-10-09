@@ -109,6 +109,7 @@ h1{
   color: rgb(5, 110, 100);
   font-size: 20px;
   flex-wrap: wrap;
+  align-items: left;
 }
 h3{
   color: rgb(253, 105, 130);
@@ -128,6 +129,9 @@ button{
 }
 table{
   width:100%;
+}
+@media screen and (max-width:600px){
+  table{table-layout:fixed;}
 }
 
 td{
