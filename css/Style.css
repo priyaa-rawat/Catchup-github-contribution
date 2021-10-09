@@ -8,42 +8,32 @@
         background-size: cover;
         background-repeat:no-repeat;
     }
+
+
     *{
       box-sizing:border-box;
     }
+
     .flex-container{
       display:flex;
       flex-direction: row;
       justify-content: center;
-      align-items:center;
-    }
-    .left-container{
-      flex:50%;
-      overflow:hidden;
+      padding:2em;
     }
     .left-container > img{
-      position:fixed;
-      top:400px;
-    }
+      width:100%;
+      }
     @media screen and (max-width:700px) {
       .flex-container{
         flex-direction:column;
-        justify-content: space-around;
-        align-items:baseline;
+        justify-content: center;
+        align-items:flex-start;
+        padding:2em;
       }
-      .flex-container > img{
-        height:10vh;
-        animation: MoveUpDown 1s ease infinite;
-        }
-        @keyframes MoveUpDown {
-          0%, 100%{
-            transform: translateY(-50%);
-          }
-          50%{
-            transform: translateY(5%);
-          }
-    }
+     
   }
+
+
     .box{
    flex:50%;
    border: 15px  white solid;
@@ -54,19 +44,19 @@
    width:100%;
     }
    
-    .table{
-      grid-area: table;
+    .tableg{
+      grid-area: tableg;
       display:grid;
       grid-template-areas: item1 item2 item3 item4;
       grid-auto-flow: column;
       justify-content: center;
-      grid-column-gap:7vh;
+      grid-column-gap:15vw;
       overflow-x: auto;
       }
-      .table p{
+      .tableg p{
         color:navy;
         font-weight:bold;
-        font-size:3vw;
+        font-size:2vw;
     }
     .topnav {
         background-color: #f2f2f2 ;
@@ -124,7 +114,7 @@
       }
 
     h1{
-        font-size:7vw;
+        font-size:5vw;
         background-image:repeating-radial-gradient(orangered,orange);
         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans=serif;
         font-style: italic;
