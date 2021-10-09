@@ -108,6 +108,7 @@ h1{
   margin:40px;
   color: rgb(5, 110, 100);
   font-size: 20px;
+  flex-wrap: wrap;
 }
 h3{
   color: rgb(253, 105, 130);
